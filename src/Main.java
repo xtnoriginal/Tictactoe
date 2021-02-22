@@ -1,19 +1,16 @@
-import View.Board;
-import View.GameUI;
+import Controller.Controller;
+
 
 public class Main {
 
-
-    public  static void  main(String [] args){
-
-        GameUI gameUI=new GameUI();
-        gameUI.add(new Board());
+    public  static  void main(String [] arg){
 
 
-
-
+        Controller controller=new Controller();
+        controller.addIntro();
 
 
 
     }
+
 }
